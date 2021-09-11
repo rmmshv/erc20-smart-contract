@@ -5,8 +5,8 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract FourtyTwo is ERC20, ERC20Burnable, Ownable {
-    constructor() ERC20("FourtyTwo", "FTT") {
+contract FortyTwo is ERC20, ERC20Burnable, Ownable {
+    constructor() ERC20("FortyTwo", "FTT") {
         _mint(msg.sender, 42000000 * 10 ** decimals());
     }
 
